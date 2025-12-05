@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>MHGameOnline – Original Game Player </title>
+    <title>MHGameOnline – Original Game App</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,15 +13,25 @@
         }
 
         header {
-            background: linear-gradient(45deg, #000, #222);
-            color: white;
+            background: yellow;
+            color: red;
             padding: 20px;
             text-align: center;
+            font-weight: bold;
+            text-shadow: 1px 1px black;
         }
 
         section {
             padding: 20px;
             text-align: center;
+        }
+
+        .banner-img {
+            width: 95%;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px black;
+            margin-top: 10px;
         }
 
         .play-btn {
@@ -33,6 +43,14 @@
             border-radius: 10px;
             cursor: pointer;
             margin: 20px 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .play-btn img {
+            width: 28px;
+            height: 28px;
         }
 
         .play-btn:hover {
@@ -56,11 +74,12 @@
         th, td {
             border: 1px solid #999;
             padding: 10px;
+            font-weight: bold;
         }
 
         th {
-            background: yellow;
-            color: red;
+            background: black;
+            color: yellow;
         }
 
         footer {
@@ -76,20 +95,24 @@
 
 <header>
     <h1>MHGameOnline</h1>
-    <p>Original Game App</p>
+    <p>🔥 Original Game Players 🔥</p>
 </header>
+
+<!-- ✅ BANNER IMAGE -->
+<section>
+    <img src="banner-shot.png" class="banner-img" alt="Game Banner">
+</section>
 
 <section>
     <h2>🎮 Play Online & Earn Big 🎯</h2>
-    <p>Safe • Fast • Trusted • Instant Payment</p
-<section>
-    <img src="banner-shot.png" alt="Game Banner" style="width:90%; max-width:500px; border-radius:15px; box-shadow:0 0 10px black;">
-</section>
+    <p>Safe • Fast • Trusted • Instant Payment</p>
 
-
-    <!-- WhatsApp Play Now Button -->
+    <!-- ✅ WhatsApp Play Now Button with Image -->
     <a href="https://wa.me/918956490113" target="_blank">
-        <button class="play-btn">▶️ Play Now on WhatsApp</button>
+        <button class="play-btn">
+            <img src="whatsapp.jpg" alt="WhatsApp">
+            Play Now on WhatsApp
+        </button>
     </a>
 </section>
 
@@ -154,7 +177,10 @@
     <p>Click below to start playing now</p>
 
     <a href="https://wa.me/918956490113" target="_blank">
-        <button class="play-btn">💬 Chat on WhatsApp</button>
+        <button class="play-btn">
+            <img src="whatsapp.jpg" alt="WhatsApp">
+            Chat on WhatsApp
+        </button>
     </a>
 </section>
 
